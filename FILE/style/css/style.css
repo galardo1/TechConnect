@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding:0;
+ }
+
+#nav{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+}
+
+#h1{
+	font-size: 3em;
+	font-family: Tahoma;
+	margin-top: 2vh;
+	margin-left: 2vw;
+	text-decoration: none;
+	color: black;
+	height: 6vh;
+}
+
+#flex{
+	width: 80%;
+	height: 20vh;
+	text-align: right;
+	margin-top: 3vh;
+}
+
+.a{
+	text-decoration: none;
+	font-size: 3vh;
+	margin: 0 auto;
+	margin-left: 1vw;
+	color: black;
+	transition: 0.4s;
+}
+
+.a:hover{
+	color: turquoise;
+	transition: 0.4s;
+}
+
+#Register{
+	width: 100%;
+	height: 10vh;
+	text-align: right;
+	display: flex;
+}
+
+#RegisterPanel{
+	width: 50%;
+	height: 60vh;
+	text-align: right;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+#loginPanel{
+	width: 50%;
+	height: 43vh;
+	text-align: right;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+
+#h2{
+	font-size: 2.5vw;
+	font-family: Tahoma;
+	margin: 0 auto;
+	margin-top: 1vh;
+}
+
+#fh2{
+	
+	width: 100%;
+	height: 7vh;
+	display: flex;
+}
+
+#input{
+	margin: 0 auto;
+	margin-top: 1vh;
+	width: 100%;
+	height:40vh;
+	text-align: center;
+	display: flex;
+}
+
+.inp{
+	width: 23vw;
+	height: 6vh;
+	font-size: 3vh;
+	text-align: center;
+}
+.but{
+	border: none;
+	width: 11vw;
+	height: 4vh;
+	font-size: 1vw;
+	border-radius: 1vh;
+	transition: 0.3s;
+	margin-top:2vh;
+	color: white;
+	background-color:black ;
+	border-radius: 1vh;
+
+}
+.but:hover{
+	border: none;
+	width: 11vw;
+	height: 4vh;
+	font-size: 1vw;
+	border-radius: 1vh;
+	background: turquoise;
+	transition: 0.3s;
+	cursor: pointer;
+	color: black;
+}
+
+#regQ{
+	width: 100%;
+	height: 10vh;
+	margin-left: 1vh;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 5vh;
+	font-size: 2vh;
+}
+
+#logQ{
+	width: 100%;
+	height: 1vh;
+	text-align: center;
+	margin:0 auto;
+	font-size: 2vh;
+	margin-top: -3vh;
+}
+
+#form{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#resg{
+	color:green;
+	font-size: 1vw;
+	font-family: Tahoma;
+}
+
+#resb{
+	color:red;
+	font-size: 1vw;
+	font-family: Tahoma;
+}
+
+#slash{
+	font-size: 1vw;
+	font-family: Tahoma;
+}
+
+.tg{
+	width: 2vw;
+	text-decoration: none;
+	font-size: 2vh;
+	color: ;
+}
+
+.user_info{
+	margin-left: 15vh;
+	font-size: 3vh;
+}

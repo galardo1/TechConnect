@@ -1,0 +1,76 @@
+input[type="radio"] 
+{
+    display: none;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider2 {
+    position: relative;
+    max-width: 600px;
+    height: 35vh;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -1vh;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+.navigation {
+    display: flex;
+    position: felx;
+    margin-top: 1vh;
+    margin-left:5vh;
+}
+
+.navigation2 {
+    display: flex;
+    position: felx;
+    margin-top: 3vh;
+    margin-left:5vh;
+}
+
+#but_for_mail{
+	margin-right: 2vh;
+	width: 20vh;
+    font-size: 2vh;
+    font-family: Tahoma;
+    cursor: pointer;
+}
+#but_for_mail:hover{
+    color: red;
+    
+}
+
+#but_for_phone{
+	width: 30vh;
+    font-size: 2vh;
+    font-family: Tahoma;
+    cursor: pointer;
+}
+
+#but_for_phone:hover{
+    color: red;
+    
+}
